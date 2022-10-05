@@ -1,0 +1,721 @@
+[{
+	"name":"boston_bull",
+	"height":"15-17",
+	"weight":"12-25",
+	"life expectancy":"11-13"
+},
+{
+	"name":"dingo",
+	"height":"17.75-19.5",
+	"weight":"30-55 pounds",
+	"life expectancy":"10-13"
+},
+{
+	"name":"pekinese",
+	"height":"6-9",
+	"weight":"upto 14",
+	"life expectancy":"12-14"
+},
+{
+	"name":"bluetick",
+	"height":"21-27",
+	"weight":"45-80",
+	"life expectancy":"11-12"
+},
+{
+	"name":"golden_retriever",
+	"height":"21.5-24",
+	"weight":"55-75",
+	"life expectancy":"10-12"
+},
+{
+	"name":"bedlington_terrier",
+	"height":"15-17.5",
+	"weight":"17-23",
+	"life expectancy":"11-16"
+},
+{
+	"name":"borzoi",
+	"height":"26 and above",
+	"weight":"75-105",
+	"life expectancy":"9-14"
+},
+{
+	"name":"basenji",
+	"height":"16-17",
+	"weight":"22-24",
+	"life expectancy":"13-14"
+},
+{
+	"name":"scottish_deerhound",
+	"height":"28-32",
+	"weight":"85-110",
+	"life expectancy":"8-11"
+},
+{
+	"name":"shetland_sheepdog",
+	"height":"13-16",
+	"weight":"15-25",
+	"life expectancy":"12-14"
+},
+{
+	"name":"walker_hound",
+	"height":"22-27",
+	"weight":"50-70",
+	"life expectancy":"12-13"
+},
+{
+	"name":"maltese_dog",
+	"height":" 7-9",
+	"weight":"under 7",
+	"life expectancy":"12-15"
+},
+{
+	"name":"norfolk_terrier",
+	"height":"9-10",
+	"weight":"11-12",
+	"life expectancy":"12-16"
+},
+{
+	"name":"african_hunting_dog",
+	"height":"upto 11",
+	"weight":"39.5-43",
+	"life expectancy":"10-12"
+},
+{
+	"name":"wire-haired_fox_terrier",
+	"height":"15.5",
+	"weight":"15-18",
+	"life expectancy":"12-15"
+},
+{
+	"name":"redbone",
+	"height":"22-27",
+	"weight":"45-70",
+	"life expectancy":"12-15"
+},
+{
+	"name":"lakeland_terrier",
+	"height":"14-15",
+	"weight":"17",
+	"life expectancy":"12-15"
+},
+{
+	"name":"boxer",
+	"height":"21-25",
+	"weight":"65-80",
+	"life expectancy":"10-12"
+},
+{
+	"name":"doberman",
+	"height":"24-28",
+	"weight":"60-90",
+	"life expectancy":"10-12"
+},
+{
+	"name":"otterhound",
+	"height":"24-27",
+	"weight":"80-115",
+	"life expectancy":"10-13"
+},
+{
+	"name":"standard_schnauzer",
+	"height":"17.5-19.5",
+	"weight":"35-45",
+	"life expectancy":"13-16"
+},
+{
+	"name":"irish_water_spaniel",
+	"height":"21-24",
+	"weight":"45-68",
+	"life expectancy":"12-13"
+},
+{
+	"name":"black-and-tan_coonhound",
+	"height":"23-27",
+	"weight":"65-110",
+	"life expectancy":"10-12"
+},
+{
+	"name":"cairn",
+	"height":"9.5-10",
+	"weight":"13-14",
+	"life expectancy":"13-15"
+},
+{
+	"name":"affenpinscher",
+	"height":"9-11.5",
+	"weight":"7-10",
+	"life expectancy":"12-15"
+},
+{
+	"name":"labrador_retriever",
+	"height":"21.5-24.5",
+	"weight":"55-80",
+	"life expectancy":"10-12"
+},
+{
+	"name":"ibizan_hound",
+	"height":"22.5-27.5",
+	"weight":"45-50",
+	"life expectancy":"11-14"
+},
+{
+	"name":"english_setter",
+	"height":"25-27",
+	"weight":"45-80",
+	"life expectancy":"12"
+},
+{
+	"name":"weimaraner",
+	"height":"23-27",
+	"weight":"55-90",
+	"life expectancy":"10-13"
+},
+{
+	"name":"giant_schnauzer",
+	"height":"23.5-27.5",
+	"weight":"55-85",
+	"life expectancy":"12-15"
+},
+{
+	"name":"groenendael",
+	"height":"22-26",
+	"weight":"45-75",
+	"life expectancy":"12-14"
+},
+{
+	"name":"dhole",
+	"height":"17-22",
+	"weight":"33-46",
+	"life expectancy":"11-15"
+},
+{
+	"name":"toy_poodle",
+	"height":"under 10",
+	"weight":"4-6",
+	"life expectancy":"10-18"
+},
+{
+	"name":"border_terrier",
+	"height":"12-15",
+	"weight":"11.5-14",
+	"life expectancy":"12-15"
+},
+{
+	"name":"tibetan_terrier",
+	"height":"14-17",
+	"weight":"18-30",
+	"life expectancy":"15-16"
+},
+{
+	"name":"norwegian_elkhound",
+	"height":"14-17",
+	"weight":"18-30",
+	"life expectancy":"15-16"
+},
+{
+	"name":"shih-tzu",
+	"height":"9-10.5",
+	"weight":"9-16",
+	"life expectancy":"10-18"
+},
+{
+	"name":"irish_terrier",
+	"height":"18",
+	"weight":"25-27",
+	"life expectancy":"13-15"
+},
+{
+	"name":"kuvasz",
+	"height":"26-30",
+	"weight":"70-115",
+	"life expectancy":"10-12"
+},
+{
+	"name":"german_shepherd",
+	"height":"22-26",
+	"weight":"50-90",
+	"life expectancy":"12-14"
+},
+{
+	"name":"greater_swiss_mountain_dog",
+	"height":"23.5-28.5",
+	"weight":"85-140",
+	"life expectancy":"8-11"
+},
+{
+	"name":"basset",
+	"height":"under 15",
+	"weight":"40-65",
+	"life expectancy":"12-13"
+},
+{
+	"name":"australian_terrier",
+	"height":"10-11",
+	"weight":"15-20",
+	"life expectancy":"11-15"
+},
+{
+	"name":"schipperke",
+	"height":"10-13",
+	"weight":"10-16",
+	"life expectancy":"12-14"
+},
+{
+	"name":"rhodesian_ridgeback",
+	"height":"24-27",
+	"weight":"70-85",
+	"life expectancy":"10"
+},
+{
+	"name":"irish_setter",
+	"height":"25-27",
+	"weight":"60-70",
+	"life expectancy":"12-15"
+},
+{
+	"name":"appenzeller",
+	"height":"19-22",
+	"weight":"48-70",
+	"life expectancy":"12-15"
+},
+{
+	"name":"bloodhound",
+	"height":"23-27",
+	"weight":"90-110",
+	"life expectancy":"10-12"
+},
+{
+	"name":"samoyed",
+	"height":"19-23.5",
+	"weight":"45-65",
+	"life expectancy":"12-14"
+},
+{
+	"name":"miniature_schnauzer",
+	"height":"12-14",
+	"weight":"11-20",
+	"life expectancy":"12-15"
+},
+{
+	"name":"brittany_spaniel",
+	"height":"17.5-20.5",
+	"weight":"30-40",
+	"life expectancy":"12-14"
+},
+{
+	"name":"kelpie",
+	"height":"17-20",
+	"weight":"31-44",
+	"life expectancy":"10-13"
+},
+{
+	"name":"papillon",
+	"height":"8-11",
+	"weight":"5-10",
+	"life expectancy":"14-16"
+},
+{
+	"name":"border_collie",
+	"height":"18-22",
+	"weight":"30-55",
+	"life expectancy":"12-15"
+},
+{
+	"name":"entlebucher",
+	"height":"16-21",
+	"weight":"40-65",
+	"life expectancy":"11-13"
+},
+{
+	"name":"collie",
+	"height":"22-26",
+	"weight":"50-75",
+	"life expectancy":"12-14"
+},
+{
+	"name":"malamute",
+	"height":"23-25",
+	"weight":"75-85",
+	"life expectancy":"10-14"
+},
+{
+	"name":"welsh_springer_spaniel",
+	"height":"18-19",
+	"weight":"35-55",
+	"life expectancy":"12-15"
+},
+{
+	"name":"chihuahua",
+	"height":"5-8",
+	"weight":"under 6",
+	"life expectancy":"14-16"
+},
+{
+	"name":"saluki",
+	"height":"23-28",
+	"weight":"40-65",
+	"life expectancy":"10-17"
+},
+{
+	"name":"pug",
+	"height":"10-13",
+	"weight":"14-18",
+	"life expectancy":"13-15"
+},
+{
+	"name":"malinois",
+	"height":"22-26",
+	"weight":"40-80",
+	"life expectancy":"14-16"
+},
+{
+	"name":"komondor",
+	"height":"above 25.5",
+	"weight":"80-100",
+	"life expectancy":"10-12"
+},
+{
+	"name":"airedale",
+	"height":"23",
+	"weight":"50-70",
+	"life expectancy":"11-14"
+},
+{
+	"name":"leonberg",
+	"height":"28-31.5",
+	"weight":"110-170",
+	"life expectancy":"9"
+},
+{
+	"name":"mexican_hairless",
+	"height":"10-23",
+	"weight":"10-55",
+	"life expectancy":"13-18"
+},
+{
+	"name":"bull_mastiff",
+	"height":"24-27",
+	"weight":"100-130",
+	"life expectancy":"7-9"
+},
+{
+	"name":"bernese_mountain_dog",
+	"height":"23-27.5",
+	"weight":"70-115",
+	"life expectancy":"7-10"
+},
+{
+	"name":"american_staffordshire_terrier",
+	"height":"17-19",
+	"weight":"40-70",
+	"life expectancy":"12-16"
+},
+{
+	"name":"lhasa",
+	"height":"10-11",
+	"weight":"12-18",
+	"life expectancy":"12-15"
+},
+{
+	"name":"cardigan",
+	"height":"10.5-12.5",
+	"weight":"25-38",
+	"life expectancy":"12-15"
+},
+{
+	"name":"italian_greyhound",
+	"height":"13-15",
+	"weight":"7-14",
+	"life expectancy":"14-15"
+},
+{
+	"name":"clumber",
+	"height":"17-20",
+	"weight":"55-85",
+	"life expectancy":"10-12"
+},
+{
+	"name":"scotch_terrier",
+	"height":"10",
+	"weight":"19-22",
+	"life expectancy":"12"
+},
+{
+	"name":"afghan_hound",
+	"height":"25-27",
+	"weight":"50-60",
+	"life expectancy":"12-15"
+},
+{
+	"name":"old_english_sheepdog",
+	"height":"21 and above",
+	"weight":"60-100",
+	"life expectancy":"10-12"
+},
+{
+	"name":"saint_bernard",
+	"height":"28-30",
+	"weight":"120-180",
+	"life expectancy":"8-10"
+},
+{
+	"name":"miniature_pinscher",
+	"height":"10-12.5",
+	"weight":"8-10",
+	"life expectancy":"12-16"
+},
+{
+	"name":"eskimo_dog",
+	"height":"9-19",
+	"weight":"6-10",
+	"life expectancy":"13-15"
+},
+{
+	"name":"irish_wolfhound",
+	"height":"30-32",
+	"weight":"105-120",
+	"life expectancy":"6-8"
+},
+{
+	"name":"brabancon_griffon",
+	"height":"7-10",
+	"weight":"8-10",
+	"life expectancy":"12-15"
+},
+{
+	"name":"toy_terrier",
+	"height":"15.5",
+	"weight":"15-18",
+	"life expectancy":"12-15"
+},
+{
+	"name":"chow",
+	"height":"17-20",
+	"weight":"45-70",
+	"life expectancy":"8-12"
+},
+{
+	"name":"flat-coated_retriever",
+	"height":"17-20",
+	"weight":"45-70",
+	"life expectancy":"8-12"
+},
+{
+	"name":"norwich_terrier",
+	"height":"10",
+	"weight":"12",
+	"life expectancy":"12-15"
+},
+{
+	"name":"soft-coated_wheaten_terrier",
+	"height":"18-19",
+	"weight":"30-40",
+	"life expectancy":"12-14"
+},
+{
+	"name":"staffordshire_bullterrier",
+	"height":"14-16",
+	"weight":"28-38",
+	"life expectancy":"12-14"
+},
+{
+	"name":"english_foxhound",
+	"height":"22-25",
+	"weight":"65-70",
+	"life expectancy":"11-13"
+},
+{
+	"name":"gordon_setter",
+	"height":"23-27",
+	"weight":"45-80",
+	"life expectancy":"12-13"
+},
+{
+	"name":"siberian_husky",
+	"height":"21-23.5",
+	"weight":"35-60",
+	"life expectancy":"12-14"
+},
+{
+	"name":"newfoundland",
+	"height":"26-28",
+	"weight":"100-130",
+	"life expectancy":"9-10"
+},
+{
+	"name":"briard",
+	"height":"22-27",
+	"weight":"55-100",
+	"life expectancy":"12"
+},
+{
+	"name":"chesapeake_bay_retriever",
+	"height":"21-26",
+	"weight":"55-80",
+	"life expectancy":"10-13"
+},
+{
+	"name":"dandie_dinmont",
+	"height":"8-11",
+	"weight":"18-24",
+	"life expectancy":"12-15"
+},
+{
+	"name":"great_pyrenees",
+	"height":"27-32",
+	"weight":"85-100",
+	"life expectancy":"10-12"
+},
+{
+	"name":"beagle",
+	"height":"13-15",
+	"weight":"20-30",
+	"life expectancy":"10-15"
+},
+{
+	"name":"vizsla",
+	"height":"22-24",
+	"weight":"55-60",
+	"life expectancy":"12-14"
+},
+{
+	"name":"west_highland_white_terrier",
+	"height":"10-11",
+	"weight":"15-20",
+	"life expectancy":"13-15"
+},
+{
+	"name":"kerry_blue_terrier",
+	"height":"18-19.5",
+	"weight":"33-40",
+	"life expectancy":"12-15"
+},
+{
+	"name":"whippet",
+	"height":"19-22",
+	"weight":"24-40",
+	"life expectancy":"12-15"
+},
+{
+	"name":"sealyham_terrier",
+	"height":"10.5",
+	"weight":"23-24",
+	"life expectancy":"12-14"
+},
+{
+	"name":"standard_poodle",
+	"height":"above 15",
+	"weight":"50-70",
+	"life expectancy":"10-18"
+},
+{
+	"name":"keeshond",
+	"height":"17-18",
+	"weight":"35-45",
+	"life expectancy":"12-15"
+},
+{
+	"name":"japanese_spaniel",
+	"height":"8-11",
+	"weight":"7-11",
+	"life expectancy":"10-12"
+},
+{
+	"name":"miniature_poodle",
+	"height":"10-15",
+	"weight":"10-15",
+	"life expectancy":"10-18"
+},
+{
+	"name":"pomeranian",
+	"height":"6-7",
+	"weight":"3-7",
+	"life expectancy":"12-16"
+},
+{
+	"name":"curly-coated_retriever",
+	"height":"25-27",
+	"weight":"60-95",
+	"life expectancy":"10-12"
+},
+{
+	"name":"yorkshire_terrier",
+	"height":"7-8",
+	"weight":"7-8",
+	"life expectancy":"11-15"
+},
+{
+	"name":"pembroke",
+	"height":"10-12",
+	"weight":"under 28-30",
+	"life expectancy":"12-13"
+},
+{
+	"name":"great_dane",
+	"height":"30-32",
+	"weight":"110-175",
+	"life expectancy":"7-10"
+},
+{
+	"name":"blenheim_spaniel",
+	"height":"12-13",
+	"weight":"13-18",
+	"life expectancy":"12-15"
+},
+{
+	"name":"silky_terrier",
+	"height":"9-10",
+	"weight":"10",
+	"life expectancy":"13-15"
+},
+{
+	"name":"sussex_spaniel",
+	"height":"13-15",
+	"weight":"35-45",
+	"life expectancy":"13-15"
+},
+{
+	"name":"german_short-haired_pointer",
+	"height":"21-25",
+	"weight":"45-70",
+	"life expectancy":"10-12"
+},
+{
+	"name":"french_bulldog",
+	"height":"11-12",
+	"weight":"under 28",
+	"life expectancy":"10-12"
+},
+{
+	"name":"bouvier_des_flandres",
+	"height":"23.5-27.5",
+	"weight":"70-110",
+	"life expectancy":"10-12"
+},
+{
+	"name":"tibetan_mastiff",
+	"height":"above 24",
+	"weight":"70-150",
+	"life expectancy":"10-12"
+},
+{
+	"name":"english_springer",
+	"height":"20",
+	"weight":"40-50",
+	"life expectancy":"12-14"
+},
+{
+	"name":"cocker_spaniel",
+	"height":"13.5-15.5",
+	"weight":"20-30",
+	"life expectancy":"10-14"
+},
+{
+	"name":"rottweiler",
+	"height":"22-27",
+	"weight":"80-135",
+	"life expectancy":"9-10"
+}
+]
