@@ -16,108 +16,33 @@ function Foot()
       duration : 1000,
 
     })
-    const [filedata,setData] = useState([])
-    const [loading,setLoading] = useState(false)
-    const [identifying,setIdentifying] = useState(false)
-    const [output,setOutput] = useState({name:"German Shepherd", height:"22-26", weight:"50-90", life:"12-14"})
-    const [okay,setokay]=useState(false)
-    const [loaded,setloaded] = useState(false)
+
     // const fi = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO9kpVS9Vb1r9HWVi6OHdB8Jtw1yoiOlrnCA&usqp=CAU'
-    const [image,setImage] = useState(german)
 
-    // const [image,setImage] = useState("https://res.cloudinary.com/shandroid/image/upload/v1619272742/breedy/kk5qlcdk0ilbt8dyhpev.jpg")
     
-    const identify= async ()=>{
-      setIdentifying(true)
-
-      // const respo = await fetch("http://127.0.0.1:8000/img",
-      const respo = await fetch("https://breed-classifier.herokuapp.com/img",
-      {
-          method: 'POST',
-          body:JSON.stringify({img_link:filedata.secure_url})
-          // body:JSON.stringify({img_link:fi})
-      })
-      const out = await respo.json();
-
-      const results = dogs.filter(dog =>{
-        return dog.name==out[0].breed})
-      setOutput(results[0])
-      setIdentifying(false) 
-      setLoading(false)
-      setloaded(false)
-  }
-    
-    const uploadImage = async e=> {
-            const files = e.target.files
-            const data = new FormData()
-            data.append('file',files[0])
-            data.append('upload_preset','breedy')
-            let filname=files[0].name.toLowerCase();
-            if(!(filname.endsWith('.jpg')||filname.endsWith('.png')||filname.endsWith('.jpeg')))
-              {
-                alert("Only '.png' , '.jpg' and '.jpeg' formats supported!");
-                return;
-              }
-            setLoading(true)
-            setIdentifying(true)
-            const res = await fetch("https://api.cloudinary.com/v1_1/shandroid/image/upload",
-            {
-                method: 'POST',
-                body:data
-            })
-            const file = await res.json()
-            setokay(true)
-            setData(file);
-            setImage(file.secure_url)
-    
-            const fi = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO9kpVS9Vb1r9HWVi6OHdB8Jtw1yoiOlrnCA&usqp=CAU'
-
-            setIdentifying(true)
-
-            // const respo = await fetch("https://breedinator-flask.herokuapp.com/",
-            const respo = await fetch("http://127.0.0.1:5000/",
-            // const respo = await fetch("https://breed-classifier.herokuapp.com/img",
-            {
-                method: 'POST',
-                body:JSON.stringify({img_link:file.secure_url})
-                // body:JSON.stringify({img_link:fi})
-            }).then((response)=>{return response},rejection=>{return rejection})
-
-            if(respo.status==200)
-            {
-            const out = await respo.json();
-            const results = dogs.filter(dog =>{
-              return dog.name.replaceAll('-','_')==(out[0].breed).toLowerCase()})
-            setOutput(results[0])
-            setloaded(false)
-            }
-            else{
-              // console.error(respo)
-              alert('Server is down, please try again after a few minutes.');
-              setImage(german)
-              
-            }
-            setLoading(false)
-            setIdentifying(false) 
-
-        }
+  
   
     
     return(<React.Fragment>
-        <div id='instructions' className='justify-content-center m-0' >
-        <div className='jumbotron instructioncard m-0 rounded-0'>
-              <h5 className='p-xs-3 '> Instructions </h5>
-              <ul className='list-unstyled'>
-              <li><h4> In the <Link style={{color:"blue"}} to="identify" spy={true} smooth={true}>Identification section</Link>, upload the image of the dog to be identified. </h4></li>
+        {/* <div id='instructions' className='justify-content-center m-0' > */}
+        <div id='instructionsection' className='w-100'>
+          <div className='container m-4'>
+        {/* <div className='jumbotron instructioncard m-0 rounded-0'> */}
+          <div className='row'>
+              <h5 className='text-center'> Instructions </h5>
+              <ul>
+              <li><h4> In the <Link to="identify" spy={true} smooth={true}>Identification section</Link>, upload the image of the dog to be identified. </h4></li>
               <li><h4> The presence of other animals or dogs of different breed may lower the accuracy. </h4></li>
               <li><h4> The image must be clear and centered towards the subject. </h4></li>
-              <li><h4> It can identify 120 basic breeds of dogs with 85% accuracy (working on it). </h4></li>
+              <li><h4> It can identify 120 basic breeds of dogs with 85% accuracy. </h4></li>
               <li><h4> If the subject is not among the recognisable breeds, the breed with the highest feature resemblance will be shown in the results.</h4></li>
               </ul>
-          </div>
-
+              </div>
+              </div>
+          {/* </div> */}
           
-        <div className=' d-flex p-5 row  card-bg m-0'>
+        </div>
+        {/* <div className=' d-flex p-5 row  card-bg m-0'>
           <div className='col-md-5 ml-md-5'>
               
               <div className='card dogcard pb-1 pb-md-3'>
@@ -160,12 +85,12 @@ function Foot()
               </div>
               
             </div>
-            </div>
+            </div> */}
 
       
   
             <Search/>           
-            </div>
+            {/* </div> */}
     </React.Fragment>)
 }
 

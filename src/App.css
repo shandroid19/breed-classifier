@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+body{font-family: 'Montserrat', sans-serif;}
 
 /* width */
 ::-webkit-scrollbar {
@@ -24,20 +26,13 @@
   color: white !important;
 }
 
-.card-bg{
-  /* background-image: url('https://wallpaperaccess.com/full/546539.jpg'); */
-  background-image: url('brown.webp');
-  /* background-image: url('./dog.webp'); */
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 .App {
   text-align: center;
 }
 
 .container-fluid{
   background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Ffile-converter&psig=AOvVaw2lvv-TNOoMFbZ5dyqe36fy&ust=1617940081052000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDc0NHe7e8CFQAAAAAdAAAAABAD");
-
 }
 
 
@@ -59,24 +54,47 @@
 }
 
 .datacard{
-  box-shadow: 0 0 2rem gray;
+  box-shadow: 0 0 1rem rgb(72, 72, 72);
   /* height: 50rem; */
 }
 
-.instructioncard{
-  background-image:radial-gradient(circle, #ffffff,#d1d1d1)
+#instructionsection{
+  background:linear-gradient(0deg, rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url('back.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: 0 0 0.5rem black ;
+  object-fit: contain;
+  background-position: center;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #ffffff;
+
+}
+#instructionsection a{
+  color: #61dafb !important;
 }
 
+
 .searchcard{
-  background-image:url('https://www.lawter.com/wp-content/uploads/2016/02/5-Infinite-White-Studio-Backdrops-WO.jpg');
+  border: none;
+    /* background-image: url('https://wallpaperaccess.com/full/546539.jpg'); */
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0),rgba(0, 0, 0,0.3 ),rgba(0, 0, 0, 1)), url('new_back.jpg');
+    background-position: top;
+    /* background-image: url('./dog.webp'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+  /* background-
+  image:url('https://www.lawter.com/wp-content/uploads/2016/02/5-Infinite-White-Studio-Backdrops-WO.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 .cardimg{
   background-color: black;
   object-fit:'contain';
-  max-height:20rem;
-  max-width:100%;
+  max-width: 100%;
+  height:20rem;
 }
 
 .dogcard{
@@ -119,7 +137,7 @@
 @media only screen and (max-width: 600px) {
   h5{font-size:1rem;}
   h3{font-size:1rem;}
-  h4{font-size:0.5rem;}
+  h4{font-size:0.8rem;}
   h6{font-size:0.3rem;}
   th{font-size:0.7rem;}
   td{font-size:0.7rem;}
@@ -133,7 +151,7 @@
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   h5{font-size:1.2rem;}
   h3{font-size:1.2rem;}
-  h4{font-size:0.75rem;}
+  h4{font-size:0.9rem;}
   h6{font-size:0.3rem;}
   th{font-size:0.8rem;}
   td{font-size:0.8em;}

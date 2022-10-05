@@ -19,12 +19,12 @@ export default function Top(){
   //     </div>
 
   // </nav>
-  <nav style={{backgroundColor:'#81bcf7'}} className="navbar navbar-expand navbar-dark bg-dark">
+  <nav style={{backgroundColor:'#81bcf7'}} className="navbar navbar-expand navbar-dark bg-dark fixed-top">
   <div className="container-fluid">
     <a className="navbar-brand">Breedinator</a>
 
     <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
+      <ul className="navbar-nav ml-auto">
         <li className="nav-item">
           <Link className="nav-link" aria-current="page" to="identify" spy={true} smooth={true}>Identify</Link>
         </li>
